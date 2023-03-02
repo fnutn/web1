@@ -5,23 +5,27 @@ pipeline {
         stage('Hello') {
             steps {
                 echo ' World'
+                sleep 5
             }
         }
             stage('Build') {
             steps {
                 echo 'Hello '
+                sleep 5
             }       
         }
     
         stage('run') {
             steps {
                 echo 'man'
+                sleep 5
             }       
         }
     
         stage('test') {
             steps {
                 echo 'fourty'
+                sleep 5
             }       
         }
     
